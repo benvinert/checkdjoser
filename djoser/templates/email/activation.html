@@ -17,10 +17,9 @@
 
 {% block html_body %}
 <p>Hello Dear,</p>
-<p>how you doin??</p>
 <p>{% blocktrans %}You're receiving this email because you need to finish activation process on {{ site_name }}.{% endblocktrans %}</p>
 <p>{% trans "Please go to the following page to activate account:" %}</p>
-<p><a href="{{ protocol }}://localhost:3000/{{ url|safe }}">{{ protocol }}://localhost:3000/{{ url|safe }}</a></p>
+<p><a href="{{ protocol }}://frontend-ben-ecommerce.herokuapp.com/{{ url|safe }}">{{ protocol }}://frontend-ben-ecommerce.herokuapp.com/{{ url|safe }}</a></p>
 
 <p>{% trans "Thanks for using our site!" %}</p>
 
